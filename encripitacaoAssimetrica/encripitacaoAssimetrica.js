@@ -1,5 +1,4 @@
-import { generateKeyPairSync } from "crypto";
-import { publicEncrypt, privateDecrypt } from "crypto";
+import { generateKeyPairSync, publicEncrypt, privateDecrypt } from "crypto";
 
 const { privateKey, publicKey } = generateKeyPairSync("rsa", {
   modulusLength: 2048,
