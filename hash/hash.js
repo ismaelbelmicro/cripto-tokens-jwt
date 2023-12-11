@@ -24,7 +24,7 @@ class Usuario {
 const usuario = new Usuario("João Ismael", "minhaSenha");
 console.log(usuario);
 
-// Sucess
+// 200
 usuario.autentica("João Ismael", "minhaSenha");
 
 // 400
